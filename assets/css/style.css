@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;550;600;700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+  background-color: #130f1c;
+  font-family: "Poppins", sans-serif;
+	color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+h1 span {
+	color: #9fd569;
+}
+
+h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+}
+
+h2 span {
+	color: #41bfe2;
+}
+
+/* Grid styles */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #e91b59b5;
+  border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+  box-shadow: 0px 0px 5px #e91b59b5;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 20px;
+  text-align: center;
+  background-color: #e91b59b5;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  transition: bottom 0.3s ease-in-out;
+}
+.card:hover .info {
+  bottom: 0;
+}
+
+.card .info h2 {	
+	text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.card .info h3 {
+	font-size: 1.0rem;
+	margin: 0;
+	color: #fff;
+}
+
+.card .info p {
+  font-size: 0.8rem;
+	font-weight: 500;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Balloon styles */
+
+.balloons {
+  position: fixed;
+  bottom: -50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../images/balloon/balloon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  animation: balloon-animation 10s ease-in-out infinite;
+}
+
+@keyframes balloon-animation {
+  0% {
+    bottom: -50%;
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    bottom: 100%;
+    transform: rotate(-10deg);
+  }
+}
+
+/* Footer styles */
+
+.st-copyright-text {
+    text-align: center;
+    padding-top: 1rem;
+    color: #dbd8e3;
+}
+
+.st-copyright-text a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.st-copyright-text a:hover {
+    color: #9fd569;
+}
+
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 35px;
+  background: #e91b59b5;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+    inset -2px -2px -2px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-track {
+  background: #070d1b;
+}
