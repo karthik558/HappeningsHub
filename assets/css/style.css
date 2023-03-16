@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;550;600;700&display=swap");
 
 body {
-	font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #130f1c;
   font-family: "Poppins", sans-serif;
-	color: #fff;
+  color: #fff;
 }
 
 h1 {
@@ -15,18 +15,18 @@ h1 {
 }
 
 h1 span {
-	color: #9fd569;
+  color: #9fd569;
 }
 
 h2 {
-	font-size: 1.5rem;
-	text-align: center;
-	color: #fff;
-	margin-top: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
 }
 
 h2 span {
-	color: #41bfe2;
+  color: #41bfe2;
 }
 
 /* Grid styles */
@@ -41,9 +41,9 @@ h2 span {
 .card {
   background-color: #e91b59b5;
   border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
   box-shadow: 0px 0px 5px #e91b59b5;
   overflow: hidden;
   position: relative;
@@ -65,12 +65,13 @@ h2 span {
   right: 0;
   transition: bottom 0.3s ease-in-out;
 }
+
 .card:hover .info {
   bottom: 0;
 }
 
-.card .info h2 {	
-	text-transform: uppercase;
+.card .info h2 {
+  text-transform: uppercase;
   font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 8px;
@@ -78,14 +79,14 @@ h2 span {
 }
 
 .card .info h3 {
-	font-size: 1.0rem;
-	margin: 0;
-	color: #fff;
+  font-size: 1.0rem;
+  margin: 0;
+  color: #fff;
 }
 
 .card .info p {
   font-size: 0.8rem;
-	font-weight: 500;
+  font-weight: 500;
   margin: 0;
   color: #ffffff;
 }
@@ -111,9 +112,11 @@ h2 span {
   0% {
     bottom: -50%;
   }
+
   50% {
     transform: rotate(10deg);
   }
+
   100% {
     bottom: 100%;
     transform: rotate(-10deg);
@@ -123,23 +126,23 @@ h2 span {
 /* Footer styles */
 
 .st-copyright-text {
-    text-align: center;
-    padding-top: 1rem;
-    color: #dbd8e3;
+  text-align: center;
+  padding-top: 1rem;
+  color: #dbd8e3;
 }
 
 .st-copyright-text a {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
-    text-decoration: none;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .st-copyright-text a:hover {
-    color: #9fd569;
+  color: #9fd569;
 }
 
 /* Scrollbar styles */

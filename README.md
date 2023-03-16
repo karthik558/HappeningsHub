@@ -13,9 +13,7 @@ A simple web application that displays the names and company of employees who ar
 
 To get started with the project, simply clone the repository to your local machine:
 
-`
-git clone https://github.com/karthik558/Paul-Birthday.git
-`
+`git clone https://github.com/karthik558/Paul-Birthday.git`
 
 ## Usage
 
@@ -29,7 +27,7 @@ Contributions to the project are welcome. If you would like to suggest an improv
 
 ## Credits
 
-The project was created by KARTHIK LAL, and is maintained by The Paul John Hotels and Resorts PVT Limited. 
+The project was created by KARTHIK LAL, and is maintained by The Paul John Hotels and Resorts PVT Limited.
 
 ## License
 
