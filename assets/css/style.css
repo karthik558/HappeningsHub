@@ -125,9 +125,9 @@ h2 span {
 
 /* Footer styles */
 
-.st-copyright-text {
+.st-copyright-text {  
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 5rem;
   color: #dbd8e3;
 }
 
